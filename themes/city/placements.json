@@ -1,0 +1,761 @@
+{
+ "_readme": "Coordinates = background pixels (top-left origin). List order = draw order. Fields: name, skin, anim, x, y, scale, scaleY (optional, multiplies scale on Y), rotation(deg, clockwise), flipX, timeScale, random (false = start at t=0, keeps synced rigs in phase).",
+ "skeleton": "env.json",
+ "atlas": "env.atlas",
+ "landscape": {
+  "background": "bg_landscape.png",
+  "width": 1920,
+  "height": 1080,
+  "items": [
+   {
+    "name": "Glint TL solar",
+    "skin": "glint_square",
+    "anim": "glint_sweep_small",
+    "x": 473,
+    "y": 245,
+    "scale": 1.3
+   },
+   {
+    "name": "Glint BL canopy",
+    "skin": "glint_canopy",
+    "anim": "glint_sweep",
+    "x": 323,
+    "y": 765,
+    "scale": 1.03,
+    "scaleY": 1.1
+   },
+   {
+    "name": "Glint BL corner",
+    "skin": "glint_small",
+    "anim": "glint_sweep_small",
+    "x": 626,
+    "y": 994,
+    "scale": 1.15
+   },
+   {
+    "name": "Fan TL 1",
+    "skin": "fan",
+    "anim": "fan_spin",
+    "x": 153,
+    "y": 196,
+    "scale": 1.255
+   },
+   {
+    "name": "Fan TL 2",
+    "skin": "fan",
+    "anim": "fan_spin",
+    "x": 322,
+    "y": 196,
+    "scale": 1.237
+   },
+   {
+    "name": "Fan BL",
+    "skin": "fan",
+    "anim": "fan_spin",
+    "x": 625,
+    "y": 815,
+    "scale": 0.867
+   },
+   {
+    "name": "Fan BR",
+    "skin": "fan",
+    "anim": "fan_spin",
+    "x": 1806,
+    "y": 889,
+    "scale": 1.091,
+    "timeScale": 0.7
+   },
+   {
+    "name": "Bus blue",
+    "skin": "bus_blue",
+    "anim": "bus_static",
+    "x": 207,
+    "y": 899,
+    "scale": 1.0
+   },
+   {
+    "name": "Bus red",
+    "skin": "bus_red",
+    "anim": "bus_static",
+    "x": 442,
+    "y": 899,
+    "scale": 1.0
+   },
+   {
+    "name": "Canopy lamps",
+    "skin": "lamp_row8",
+    "anim": "lamp_chase",
+    "x": 100,
+    "y": 818,
+    "scale": 1.05,
+    "random": false
+   },
+   {
+    "name": "Helipad ring",
+    "skin": "helipad_ring",
+    "anim": "ring_chase",
+    "x": 1501,
+    "y": 868,
+    "scale": 1.09,
+    "scaleY": 0.945,
+    "random": false
+   },
+   {
+    "name": "Helipad corner 1",
+    "skin": "light_red",
+    "anim": "light_blink",
+    "x": 1309,
+    "y": 723,
+    "scale": 1.0,
+    "random": false
+   },
+   {
+    "name": "Helipad corner 2",
+    "skin": "light_red",
+    "anim": "light_blink",
+    "x": 1697,
+    "y": 723,
+    "scale": 1.0,
+    "random": false
+   },
+   {
+    "name": "Helipad corner 3",
+    "skin": "light_red",
+    "anim": "light_blink",
+    "x": 1309,
+    "y": 1013,
+    "scale": 1.0,
+    "random": false
+   },
+   {
+    "name": "Helipad corner 4",
+    "skin": "light_red",
+    "anim": "light_blink",
+    "x": 1697,
+    "y": 1013,
+    "scale": 1.0,
+    "random": false
+   },
+   {
+    "name": "Helicopter",
+    "skin": "helicopter",
+    "anim": "heli_cycle",
+    "x": 1501,
+    "y": 868,
+    "scale": 0.95,
+    "random": false
+   },
+   {
+    "name": "LED TL a",
+    "skin": "light_green",
+    "anim": "light_flicker",
+    "x": 649,
+    "y": 255,
+    "scale": 0.6
+   },
+   {
+    "name": "LED TL b",
+    "skin": "light_blue",
+    "anim": "light_pulse",
+    "x": 649,
+    "y": 276,
+    "scale": 0.6
+   },
+   {
+    "name": "LED TR a",
+    "skin": "light_green",
+    "anim": "light_flicker",
+    "x": 1263,
+    "y": 255,
+    "scale": 0.6
+   },
+   {
+    "name": "LED TR b",
+    "skin": "light_blue",
+    "anim": "light_pulse",
+    "x": 1263,
+    "y": 276,
+    "scale": 0.6
+   },
+   {
+    "name": "LED BL a",
+    "skin": "light_green",
+    "anim": "light_flicker",
+    "x": 558,
+    "y": 687,
+    "scale": 0.6
+   },
+   {
+    "name": "LED BL b",
+    "skin": "light_blue",
+    "anim": "light_pulse",
+    "x": 558,
+    "y": 703,
+    "scale": 0.6
+   },
+   {
+    "name": "GH shrub 1",
+    "skin": "shrub_light",
+    "anim": "shrub_breathe",
+    "x": 1367,
+    "y": 116,
+    "scale": 1.85
+   },
+   {
+    "name": "GH shrub 2",
+    "skin": "shrub_mid",
+    "anim": "shrub_breathe",
+    "x": 1367,
+    "y": 240,
+    "scale": 1.85
+   },
+   {
+    "name": "Greenhouse",
+    "skin": "greenhouse",
+    "anim": "greenhouse_glint",
+    "x": 1718,
+    "y": 184,
+    "scale": 1.0
+   },
+   {
+    "name": "Tree TL",
+    "skin": "bush",
+    "anim": "bush_sway",
+    "x": 660,
+    "y": 40,
+    "scale": 0.58
+   },
+   {
+    "name": "Tree TR",
+    "skin": "bush",
+    "anim": "bush_sway",
+    "x": 1260,
+    "y": 40,
+    "scale": 0.58
+   },
+   {
+    "name": "Tree BL top",
+    "skin": "bush",
+    "anim": "bush_sway",
+    "x": 44,
+    "y": 744,
+    "scale": 0.6
+   },
+   {
+    "name": "Tree BL low",
+    "skin": "bush",
+    "anim": "bush_sway",
+    "x": 48,
+    "y": 997,
+    "scale": 0.62
+   },
+   {
+    "name": "Tree BR top",
+    "skin": "bush",
+    "anim": "bush_sway",
+    "x": 1260,
+    "y": 752,
+    "scale": 0.58
+   },
+   {
+    "name": "Tree BR low",
+    "skin": "bush",
+    "anim": "bush_sway",
+    "x": 1260,
+    "y": 997,
+    "scale": 0.58
+   },
+   {
+    "name": "Bush TR",
+    "skin": "bush",
+    "anim": "bush_sway",
+    "x": 1407,
+    "y": 341,
+    "scale": 0.38
+   },
+   {
+    "name": "Bush BR",
+    "skin": "bush",
+    "anim": "bush_sway",
+    "x": 1757,
+    "y": 691,
+    "scale": 0.38
+   },
+   {
+    "name": "Windsock BR",
+    "skin": "flag",
+    "anim": "flag_wave",
+    "x": 1742,
+    "y": 760,
+    "scale": 1.0
+   },
+   {
+    "name": "Pigeon 1",
+    "skin": "pigeon",
+    "anim": "pigeon_peck",
+    "x": 687,
+    "y": 344,
+    "scale": 0.85,
+    "rotation": 60
+   },
+   {
+    "name": "Pigeon 2",
+    "skin": "pigeon",
+    "anim": "pigeon_peck",
+    "x": 1234,
+    "y": 700,
+    "scale": 0.85,
+    "rotation": -120
+   },
+   {
+    "name": "Pigeon 3",
+    "skin": "pigeon",
+    "anim": "pigeon_peck",
+    "x": 1895,
+    "y": 350,
+    "scale": 0.85,
+    "rotation": 200
+   }
+  ]
+ },
+ "portrait": {
+  "background": "bg_portrait.png",
+  "width": 1080,
+  "height": 1920,
+  "items": [
+   {
+    "name": "Tree band 1",
+    "skin": "tree",
+    "anim": "tree_sway",
+    "x": 95,
+    "y": 105,
+    "scale": 0.72
+   },
+   {
+    "name": "Tree band 2",
+    "skin": "tree",
+    "anim": "tree_sway",
+    "x": 275,
+    "y": 165,
+    "scale": 0.58
+   },
+   {
+    "name": "Tree band 3",
+    "skin": "tree",
+    "anim": "tree_sway",
+    "x": 835,
+    "y": 95,
+    "scale": 0.7
+   },
+   {
+    "name": "Tree band 4",
+    "skin": "tree",
+    "anim": "tree_sway",
+    "x": 1012,
+    "y": 175,
+    "scale": 0.6
+   },
+   {
+    "name": "Tree band 5",
+    "skin": "tree",
+    "anim": "tree_sway",
+    "x": 90,
+    "y": 1815,
+    "scale": 0.72
+   },
+   {
+    "name": "Tree band 6",
+    "skin": "tree",
+    "anim": "tree_sway",
+    "x": 272,
+    "y": 1760,
+    "scale": 0.58
+   },
+   {
+    "name": "Tree band 7",
+    "skin": "tree",
+    "anim": "tree_sway",
+    "x": 838,
+    "y": 1825,
+    "scale": 0.7
+   },
+   {
+    "name": "Tree band 8",
+    "skin": "tree",
+    "anim": "tree_sway",
+    "x": 1012,
+    "y": 1755,
+    "scale": 0.6
+   },
+   {
+    "name": "Flowers band 1",
+    "skin": "flowers",
+    "anim": "bush_sway",
+    "x": 190,
+    "y": 40,
+    "scale": 0.75,
+    "rotation": 20
+   },
+   {
+    "name": "Flowers band 2",
+    "skin": "bush",
+    "anim": "bush_sway",
+    "x": 20,
+    "y": 215,
+    "scale": 0.7,
+    "rotation": 80
+   },
+   {
+    "name": "Flowers band 3",
+    "skin": "flowers",
+    "anim": "bush_sway",
+    "x": 940,
+    "y": 215,
+    "scale": 0.7,
+    "rotation": 140
+   },
+   {
+    "name": "Flowers band 4",
+    "skin": "bush",
+    "anim": "bush_sway",
+    "x": 735,
+    "y": 30,
+    "scale": 0.7,
+    "rotation": 200
+   },
+   {
+    "name": "Flowers band 5",
+    "skin": "bush",
+    "anim": "bush_sway",
+    "x": 190,
+    "y": 1890,
+    "scale": 0.75,
+    "rotation": 30
+   },
+   {
+    "name": "Flowers band 6",
+    "skin": "flowers",
+    "anim": "bush_sway",
+    "x": 20,
+    "y": 1700,
+    "scale": 0.7,
+    "rotation": 110
+   },
+   {
+    "name": "Flowers band 7",
+    "skin": "flowers",
+    "anim": "bush_sway",
+    "x": 935,
+    "y": 1700,
+    "scale": 0.7,
+    "rotation": 250
+   },
+   {
+    "name": "Flowers band 8",
+    "skin": "bush",
+    "anim": "bush_sway",
+    "x": 735,
+    "y": 1895,
+    "scale": 0.7,
+    "rotation": 310
+   },
+   {
+    "name": "Glint TL solar",
+    "skin": "glint_square",
+    "anim": "glint_sweep_small",
+    "x": 235,
+    "y": 608,
+    "scale": 0.98,
+    "scaleY": 1.2
+   },
+   {
+    "name": "Glint BL canopy",
+    "skin": "glint_canopy_short",
+    "anim": "glint_sweep",
+    "x": 170,
+    "y": 1241,
+    "scale": 1.03,
+    "scaleY": 1.45
+   },
+   {
+    "name": "Glint BL corner",
+    "skin": "glint_square",
+    "anim": "glint_sweep_small",
+    "x": 310,
+    "y": 1531,
+    "scale": 0.95
+   },
+   {
+    "name": "Fan TL 1",
+    "skin": "fan",
+    "anim": "fan_spin",
+    "x": 100,
+    "y": 488,
+    "scale": 0.934
+   },
+   {
+    "name": "Fan TL 2",
+    "skin": "fan",
+    "anim": "fan_spin",
+    "x": 204,
+    "y": 488,
+    "scale": 0.934
+   },
+   {
+    "name": "Fan BL",
+    "skin": "fan",
+    "anim": "fan_spin",
+    "x": 308,
+    "y": 1295,
+    "scale": 0.582
+   },
+   {
+    "name": "Fan BR",
+    "skin": "fan",
+    "anim": "fan_spin",
+    "x": 1009,
+    "y": 1370,
+    "scale": 0.776,
+    "timeScale": 0.7
+   },
+   {
+    "name": "Bus blue",
+    "skin": "bus_blue",
+    "anim": "bus_static",
+    "x": 112,
+    "y": 1411,
+    "scale": 0.9,
+    "rotation": 90
+   },
+   {
+    "name": "Bus red",
+    "skin": "bus_red",
+    "anim": "bus_static",
+    "x": 220,
+    "y": 1411,
+    "scale": 0.9,
+    "rotation": 90
+   },
+   {
+    "name": "Canopy lamps",
+    "skin": "lamp_row6",
+    "anim": "lamp_chase",
+    "x": 67,
+    "y": 1300,
+    "scale": 0.66,
+    "random": false
+   },
+   {
+    "name": "Helipad ring",
+    "skin": "helipad_ring",
+    "anim": "ring_chase",
+    "x": 869,
+    "y": 1373,
+    "scale": 0.64,
+    "scaleY": 1.35,
+    "random": false
+   },
+   {
+    "name": "Helipad corner 1",
+    "skin": "light_red",
+    "anim": "light_blink",
+    "x": 777,
+    "y": 1187,
+    "scale": 0.75,
+    "random": false
+   },
+   {
+    "name": "Helipad corner 2",
+    "skin": "light_red",
+    "anim": "light_blink",
+    "x": 960,
+    "y": 1187,
+    "scale": 0.75,
+    "random": false
+   },
+   {
+    "name": "Helipad corner 3",
+    "skin": "light_red",
+    "anim": "light_blink",
+    "x": 777,
+    "y": 1553,
+    "scale": 0.75,
+    "random": false
+   },
+   {
+    "name": "Helipad corner 4",
+    "skin": "light_red",
+    "anim": "light_blink",
+    "x": 960,
+    "y": 1553,
+    "scale": 0.75,
+    "random": false
+   },
+   {
+    "name": "Helicopter",
+    "skin": "helicopter",
+    "anim": "heli_cycle",
+    "x": 869,
+    "y": 1372,
+    "scale": 0.5,
+    "random": false
+   },
+   {
+    "name": "LED TL a",
+    "skin": "light_green",
+    "anim": "light_flicker",
+    "x": 334,
+    "y": 612,
+    "scale": 0.5
+   },
+   {
+    "name": "LED TL b",
+    "skin": "light_blue",
+    "anim": "light_pulse",
+    "x": 334,
+    "y": 640,
+    "scale": 0.5
+   },
+   {
+    "name": "LED TR a",
+    "skin": "light_green",
+    "anim": "light_flicker",
+    "x": 742,
+    "y": 615,
+    "scale": 0.5
+   },
+   {
+    "name": "LED TR b",
+    "skin": "light_blue",
+    "anim": "light_pulse",
+    "x": 742,
+    "y": 640,
+    "scale": 0.5
+   },
+   {
+    "name": "LED BL",
+    "skin": "light_green",
+    "anim": "light_flicker",
+    "x": 278,
+    "y": 1160,
+    "scale": 0.5
+   },
+   {
+    "name": "GH shrub 1",
+    "skin": "shrub_light",
+    "anim": "shrub_breathe",
+    "x": 825,
+    "y": 375,
+    "scale": 1.6
+   },
+   {
+    "name": "GH shrub 2",
+    "skin": "shrub_mid",
+    "anim": "shrub_breathe",
+    "x": 978,
+    "y": 375,
+    "scale": 1.6
+   },
+   {
+    "name": "Greenhouse",
+    "skin": "greenhouse",
+    "anim": "greenhouse_glint",
+    "x": 901,
+    "y": 556,
+    "scale": 0.88
+   },
+   {
+    "name": "Tree TL",
+    "skin": "bush",
+    "anim": "bush_sway",
+    "x": 318,
+    "y": 290,
+    "scale": 0.52
+   },
+   {
+    "name": "Tree BL top",
+    "skin": "bush",
+    "anim": "bush_sway",
+    "x": 35,
+    "y": 1185,
+    "scale": 0.52
+   },
+   {
+    "name": "Tree BL low",
+    "skin": "bush",
+    "anim": "bush_sway",
+    "x": 35,
+    "y": 1540,
+    "scale": 0.52
+   },
+   {
+    "name": "Tree BR top",
+    "skin": "bush",
+    "anim": "bush_sway",
+    "x": 750,
+    "y": 1215,
+    "scale": 0.52
+   },
+   {
+    "name": "Tree BR low",
+    "skin": "bush",
+    "anim": "bush_sway",
+    "x": 750,
+    "y": 1540,
+    "scale": 0.52
+   },
+   {
+    "name": "Bush BR",
+    "skin": "bush",
+    "anim": "bush_sway",
+    "x": 990,
+    "y": 1155,
+    "scale": 0.34
+   },
+   {
+    "name": "Windsock BR",
+    "skin": "flag",
+    "anim": "flag_wave",
+    "x": 985,
+    "y": 1230,
+    "scale": 0.75
+   },
+   {
+    "name": "Pigeon 1",
+    "skin": "pigeon",
+    "anim": "pigeon_peck",
+    "x": 200,
+    "y": 230,
+    "scale": 0.7,
+    "rotation": 40
+   },
+   {
+    "name": "Pigeon 2",
+    "skin": "pigeon",
+    "anim": "pigeon_peck",
+    "x": 900,
+    "y": 1640,
+    "scale": 0.7,
+    "rotation": -150
+   },
+   {
+    "name": "Pigeon 3",
+    "skin": "pigeon",
+    "anim": "pigeon_peck",
+    "x": 150,
+    "y": 1665,
+    "scale": 0.7,
+    "rotation": 110
+   },
+   {
+    "name": "Pigeon 4",
+    "skin": "pigeon",
+    "anim": "pigeon_peck",
+    "x": 960,
+    "y": 260,
+    "scale": 0.7,
+    "rotation": 200
+   }
+  ]
+ }
+}

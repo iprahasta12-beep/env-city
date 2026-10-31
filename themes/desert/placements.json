@@ -1,0 +1,510 @@
+{
+ "_readme": "Coordinates = background pixels (top-left origin). List order = draw order. Fields: name, skin, anim, x, y, scale, scaleY, rotation(deg, clockwise), flipX, timeScale, random.",
+ "skeleton": "env.json",
+ "atlas": "env.atlas",
+ "landscape": {
+  "background": "bg_landscape.png",
+  "width": 1920,
+  "height": 1080,
+  "items": [
+   {
+    "name": "Tree TL 1",
+    "skin": "tree_b",
+    "anim": "tree_gust",
+    "x": 46,
+    "y": 34,
+    "scale": 0.62
+   },
+   {
+    "name": "Tree TL 2",
+    "skin": "tree_a",
+    "anim": "tree_gust",
+    "x": 132,
+    "y": 287,
+    "scale": 0.6
+   },
+   {
+    "name": "Tree TR 1",
+    "skin": "tree_c",
+    "anim": "tree_gust",
+    "x": 1874,
+    "y": 46,
+    "scale": 0.62
+   },
+   {
+    "name": "Tree TR 2",
+    "skin": "tree_a",
+    "anim": "tree_gust",
+    "x": 1196,
+    "y": 287,
+    "scale": 0.5
+   },
+   {
+    "name": "Tree BL 1",
+    "skin": "tree_c",
+    "anim": "tree_gust",
+    "x": 46,
+    "y": 690,
+    "scale": 0.6
+   },
+   {
+    "name": "Tree BL 2",
+    "skin": "tree_b",
+    "anim": "tree_gust",
+    "x": 172,
+    "y": 1023,
+    "scale": 0.66
+   },
+   {
+    "name": "Tree BL 3",
+    "skin": "tree_a",
+    "anim": "tree_gust",
+    "x": 644,
+    "y": 1035,
+    "scale": 0.6
+   },
+   {
+    "name": "Tree BR 1",
+    "skin": "tree_b",
+    "anim": "tree_gust",
+    "x": 1219,
+    "y": 989,
+    "scale": 0.62
+   },
+   {
+    "name": "Tree BR 2",
+    "skin": "tree_c",
+    "anim": "tree_gust",
+    "x": 1874,
+    "y": 1035,
+    "scale": 0.6
+   },
+   {
+    "name": "Tree BR 3",
+    "skin": "tree_a",
+    "anim": "tree_gust",
+    "x": 1863,
+    "y": 644,
+    "scale": 0.55
+   },
+   {
+    "name": "Turbine",
+    "skin": "turbine",
+    "anim": "turbine_spin",
+    "x": 215,
+    "y": 732,
+    "scale": 0.9
+   },
+   {
+    "name": "Shop fan",
+    "skin": "fan",
+    "anim": "fan_spin",
+    "x": 385,
+    "y": 753,
+    "scale": 0.8
+   },
+   {
+    "name": "Diner fan L",
+    "skin": "fan",
+    "anim": "fan_spin",
+    "x": 1429,
+    "y": 161,
+    "scale": 0.9
+   },
+   {
+    "name": "Diner fan R",
+    "skin": "fan",
+    "anim": "fan_spin",
+    "x": 1719,
+    "y": 162,
+    "scale": 0.86,
+    "flipX": true
+   },
+   {
+    "name": "Vent top",
+    "skin": "vent",
+    "anim": "vent_spin",
+    "x": 497,
+    "y": 132,
+    "scale": 0.6
+   },
+   {
+    "name": "Vent bottom",
+    "skin": "vent",
+    "anim": "vent_spin",
+    "x": 1533,
+    "y": 807,
+    "scale": 0.92,
+    "flipX": true
+   },
+   {
+    "name": "Awning diner",
+    "skin": "awning",
+    "anim": "awning_flutter",
+    "x": 1554,
+    "y": 301,
+    "scale": 1.0
+   },
+   {
+    "name": "Alarm shop",
+    "skin": "alarm",
+    "anim": "alarm_blink",
+    "x": 701,
+    "y": 781,
+    "scale": 1.0,
+    "random": false
+   },
+   {
+    "name": "Windsock",
+    "skin": "windsock",
+    "anim": "windsock_wave",
+    "x": 25,
+    "y": 825,
+    "scale": 0.78
+   },
+   {
+    "name": "Smoke diner",
+    "skin": "smoke",
+    "anim": "smoke_flow",
+    "x": 1662,
+    "y": 46,
+    "scale": 1.0
+   },
+   {
+    "name": "Smoke shop",
+    "skin": "smoke",
+    "anim": "smoke_flow",
+    "x": 448,
+    "y": 639,
+    "scale": 0.75
+   },
+   {
+    "name": "Dust road",
+    "skin": "dust",
+    "anim": "dust_drift",
+    "x": -138,
+    "y": 483,
+    "scale": 1.0
+   },
+   {
+    "name": "Tumbleweed",
+    "skin": "tumbleweed",
+    "anim": "tumbleweed_roll",
+    "x": -115,
+    "y": 523,
+    "scale": 1.0,
+    "random": false
+   }
+  ]
+ },
+ "portrait": {
+  "background": "bg_portrait.png",
+  "width": 1080,
+  "height": 1920,
+  "items": [
+   {
+    "name": "Tree band 12",
+    "skin": "tree_c",
+    "anim": "tree_gust",
+    "x": 850,
+    "y": 1860,
+    "scale": 0.57
+   },
+   {
+    "name": "Tree band 11",
+    "skin": "tree_b",
+    "anim": "tree_gust",
+    "x": 180,
+    "y": 1820,
+    "scale": 0.65
+   },
+   {
+    "name": "Tree band 10",
+    "skin": "tree_a",
+    "anim": "tree_gust",
+    "x": 990,
+    "y": 1700,
+    "scale": 0.54
+   },
+   {
+    "name": "Tree band 9",
+    "skin": "tree_b",
+    "anim": "tree_gust",
+    "x": 760,
+    "y": 1450,
+    "scale": 0.54
+   },
+   {
+    "name": "Tree band 8",
+    "skin": "tree_a",
+    "anim": "tree_gust",
+    "x": 360,
+    "y": 1600,
+    "scale": 0.63
+   },
+   {
+    "name": "Tree band 7",
+    "skin": "tree_c",
+    "anim": "tree_gust",
+    "x": 120,
+    "y": 1420,
+    "scale": 0.5
+   },
+   {
+    "name": "Tree band 6",
+    "skin": "tree_c",
+    "anim": "tree_gust",
+    "x": 860,
+    "y": 520,
+    "scale": 0.51
+   },
+   {
+    "name": "Tree band 5",
+    "skin": "tree_b",
+    "anim": "tree_gust",
+    "x": 200,
+    "y": 470,
+    "scale": 0.59
+   },
+   {
+    "name": "Tree band 4",
+    "skin": "tree_a",
+    "anim": "tree_gust",
+    "x": 980,
+    "y": 330,
+    "scale": 0.59
+   },
+   {
+    "name": "Tree band 3",
+    "skin": "tree_b",
+    "anim": "tree_gust",
+    "x": 800,
+    "y": 90,
+    "scale": 0.56
+   },
+   {
+    "name": "Tree band 2",
+    "skin": "tree_c",
+    "anim": "tree_gust",
+    "x": 330,
+    "y": 260,
+    "scale": 0.58
+   },
+   {
+    "name": "Tree band 1",
+    "skin": "tree_a",
+    "anim": "tree_gust",
+    "x": 90,
+    "y": 120,
+    "scale": 0.54
+   },
+   {
+    "name": "Tree TL 1",
+    "skin": "tree_b",
+    "anim": "tree_gust",
+    "x": 26,
+    "y": 670,
+    "scale": 0.355
+   },
+   {
+    "name": "Tree TL 2",
+    "skin": "tree_a",
+    "anim": "tree_gust",
+    "x": 76,
+    "y": 815,
+    "scale": 0.344
+   },
+   {
+    "name": "Tree TR 1",
+    "skin": "tree_c",
+    "anim": "tree_gust",
+    "x": 1073,
+    "y": 676,
+    "scale": 0.355
+   },
+   {
+    "name": "Tree TR 2",
+    "skin": "tree_a",
+    "anim": "tree_gust",
+    "x": 685,
+    "y": 815,
+    "scale": 0.286
+   },
+   {
+    "name": "Tree BL 1",
+    "skin": "tree_c",
+    "anim": "tree_gust",
+    "x": 26,
+    "y": 1045,
+    "scale": 0.344
+   },
+   {
+    "name": "Tree BL 2",
+    "skin": "tree_b",
+    "anim": "tree_gust",
+    "x": 99,
+    "y": 1236,
+    "scale": 0.378
+   },
+   {
+    "name": "Tree BL 3",
+    "skin": "tree_a",
+    "anim": "tree_gust",
+    "x": 369,
+    "y": 1243,
+    "scale": 0.344
+   },
+   {
+    "name": "Tree BR 1",
+    "skin": "tree_b",
+    "anim": "tree_gust",
+    "x": 698,
+    "y": 1216,
+    "scale": 0.355
+   },
+   {
+    "name": "Tree BR 2",
+    "skin": "tree_c",
+    "anim": "tree_gust",
+    "x": 1073,
+    "y": 1243,
+    "scale": 0.344
+   },
+   {
+    "name": "Tree BR 3",
+    "skin": "tree_a",
+    "anim": "tree_gust",
+    "x": 1067,
+    "y": 1019,
+    "scale": 0.315
+   },
+   {
+    "name": "Turbine",
+    "skin": "turbine",
+    "anim": "turbine_spin",
+    "x": 123,
+    "y": 1069,
+    "scale": 0.516
+   },
+   {
+    "name": "Shop fan",
+    "skin": "fan",
+    "anim": "fan_spin",
+    "x": 221,
+    "y": 1081,
+    "scale": 0.458
+   },
+   {
+    "name": "Diner fan L",
+    "skin": "fan",
+    "anim": "fan_spin",
+    "x": 819,
+    "y": 742,
+    "scale": 0.516
+   },
+   {
+    "name": "Diner fan R",
+    "skin": "fan",
+    "anim": "fan_spin",
+    "x": 985,
+    "y": 743,
+    "scale": 0.493,
+    "flipX": true
+   },
+   {
+    "name": "Vent top",
+    "skin": "vent",
+    "anim": "vent_spin",
+    "x": 284,
+    "y": 726,
+    "scale": 0.344
+   },
+   {
+    "name": "Vent bottom",
+    "skin": "vent",
+    "anim": "vent_spin",
+    "x": 878,
+    "y": 1112,
+    "scale": 0.527,
+    "flipX": true
+   },
+   {
+    "name": "Awning diner",
+    "skin": "awning",
+    "anim": "awning_flutter",
+    "x": 890,
+    "y": 823,
+    "scale": 0.573
+   },
+   {
+    "name": "Alarm shop",
+    "skin": "alarm",
+    "anim": "alarm_blink",
+    "x": 402,
+    "y": 1097,
+    "scale": 0.573,
+    "random": false
+   },
+   {
+    "name": "Windsock",
+    "skin": "windsock",
+    "anim": "windsock_wave",
+    "x": 14,
+    "y": 1123,
+    "scale": 0.447
+   },
+   {
+    "name": "Smoke diner",
+    "skin": "smoke",
+    "anim": "smoke_flow",
+    "x": 952,
+    "y": 676,
+    "scale": 0.573
+   },
+   {
+    "name": "Smoke shop",
+    "skin": "smoke",
+    "anim": "smoke_flow",
+    "x": 257,
+    "y": 1016,
+    "scale": 0.43
+   },
+   {
+    "name": "Dust road",
+    "skin": "dust",
+    "anim": "dust_drift",
+    "x": -79,
+    "y": 927,
+    "scale": 0.573
+   },
+   {
+    "name": "Tumbleweed",
+    "skin": "tumbleweed",
+    "anim": "tumbleweed_roll",
+    "x": -66,
+    "y": 950,
+    "scale": 0.573,
+    "random": false
+   },
+   {
+    "name": "Tumbleweed vertical",
+    "skin": "tumbleweed",
+    "anim": "tumbleweed_roll",
+    "x": 553,
+    "y": -100,
+    "scale": 0.75,
+    "rotation": 90,
+    "timeScale": 0.8
+   },
+   {
+    "name": "Dust vertical",
+    "skin": "dust",
+    "anim": "dust_drift",
+    "x": 553,
+    "y": -150,
+    "scale": 0.7,
+    "rotation": 90
+   }
+  ]
+ }
+}

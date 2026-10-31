@@ -1,0 +1,2122 @@
+{
+ "_readme": "Coordinates = background pixels (top-left origin). List order = draw order. Fields: name, skin, anim, x, y, scale, rotation(deg, clockwise), flipX, timeScale.",
+ "skeleton": "env.json",
+ "atlas": "env.atlas",
+ "landscape": {
+  "background": "bg_landscape.png",
+  "width": 1920,
+  "height": 1080,
+  "items": [
+   {
+    "name": "Flowers 1.1",
+    "skin": "flowers",
+    "anim": "bush_sway",
+    "x": 1236,
+    "y": 18,
+    "scale": 1.148,
+    "rotation": 0
+   },
+   {
+    "name": "Bush 2.1",
+    "skin": "bush",
+    "anim": "bush_sway",
+    "x": 683,
+    "y": 16,
+    "scale": 1.01,
+    "rotation": 37
+   },
+   {
+    "name": "Bush 3.1",
+    "skin": "bush",
+    "anim": "bush_sway",
+    "x": 138,
+    "y": 21,
+    "scale": 1.01,
+    "rotation": 74
+   },
+   {
+    "name": "Bush 3.2",
+    "skin": "bush",
+    "anim": "bush_sway",
+    "x": 182,
+    "y": 21,
+    "scale": 1.01,
+    "rotation": 127
+   },
+   {
+    "name": "Flowers 3.3",
+    "skin": "flowers",
+    "anim": "bush_sway",
+    "x": 226,
+    "y": 21,
+    "scale": 1.01,
+    "rotation": 180
+   },
+   {
+    "name": "Bush 4.1",
+    "skin": "bush",
+    "anim": "bush_sway",
+    "x": 304,
+    "y": 34,
+    "scale": 1.068,
+    "rotation": 111
+   },
+   {
+    "name": "Flowers 5.1",
+    "skin": "flowers",
+    "anim": "bush_sway",
+    "x": 1613,
+    "y": 37,
+    "scale": 0.976,
+    "rotation": 148
+   },
+   {
+    "name": "Flowers 6.1",
+    "skin": "flowers",
+    "anim": "bush_sway",
+    "x": 407,
+    "y": 37,
+    "scale": 0.941,
+    "rotation": 185
+   },
+   {
+    "name": "Bush 7.1",
+    "skin": "bush",
+    "anim": "bush_sway",
+    "x": 14,
+    "y": 62,
+    "scale": 0.941,
+    "rotation": 222
+   },
+   {
+    "name": "Bush 8.1",
+    "skin": "bush",
+    "anim": "bush_sway",
+    "x": 1904,
+    "y": 63,
+    "scale": 1.01,
+    "rotation": 259
+   },
+   {
+    "name": "Bush 9.1",
+    "skin": "bush",
+    "anim": "bush_sway",
+    "x": 1373,
+    "y": 49,
+    "scale": 1.033,
+    "rotation": 296
+   },
+   {
+    "name": "Bush 9.2",
+    "skin": "bush",
+    "anim": "bush_sway",
+    "x": 1410,
+    "y": 49,
+    "scale": 1.033,
+    "rotation": 349
+   },
+   {
+    "name": "Flowers 10.1",
+    "skin": "flowers",
+    "anim": "bush_sway",
+    "x": 1660,
+    "y": 55,
+    "scale": 1.263,
+    "rotation": 333
+   },
+   {
+    "name": "Bush 10.2",
+    "skin": "bush",
+    "anim": "bush_sway",
+    "x": 1706,
+    "y": 55,
+    "scale": 1.263,
+    "rotation": 26
+   },
+   {
+    "name": "Flowers 11.1",
+    "skin": "flowers",
+    "anim": "bush_sway",
+    "x": 156,
+    "y": 78,
+    "scale": 1.263,
+    "rotation": 10
+   },
+   {
+    "name": "Bush 12.1",
+    "skin": "bush",
+    "anim": "bush_sway",
+    "x": 699,
+    "y": 103,
+    "scale": 1.091,
+    "rotation": 47
+   },
+   {
+    "name": "Bush 13.1",
+    "skin": "bush",
+    "anim": "bush_sway",
+    "x": 1220,
+    "y": 110,
+    "scale": 1.033,
+    "rotation": 84
+   },
+   {
+    "name": "Bush 14.1",
+    "skin": "bush",
+    "anim": "bush_sway",
+    "x": 1823,
+    "y": 130,
+    "scale": 0.861,
+    "rotation": 121
+   },
+   {
+    "name": "Bush 14.2",
+    "skin": "bush",
+    "anim": "bush_sway",
+    "x": 1823,
+    "y": 183,
+    "scale": 0.861,
+    "rotation": 174
+   },
+   {
+    "name": "Flowers 15.1",
+    "skin": "flowers",
+    "anim": "bush_sway",
+    "x": 729,
+    "y": 165,
+    "scale": 0.941,
+    "rotation": 158
+   },
+   {
+    "name": "Bush 15.2",
+    "skin": "bush",
+    "anim": "bush_sway",
+    "x": 729,
+    "y": 205,
+    "scale": 0.941,
+    "rotation": 211
+   },
+   {
+    "name": "Flowers 16.1",
+    "skin": "flowers",
+    "anim": "bush_sway",
+    "x": 1206,
+    "y": 172,
+    "scale": 1.263,
+    "rotation": 195
+   },
+   {
+    "name": "Flowers 16.2",
+    "skin": "flowers",
+    "anim": "bush_sway",
+    "x": 1206,
+    "y": 213,
+    "scale": 1.263,
+    "rotation": 248
+   },
+   {
+    "name": "Bush 17.1",
+    "skin": "bush",
+    "anim": "bush_sway",
+    "x": 1881,
+    "y": 177,
+    "scale": 0.827,
+    "rotation": 232
+   },
+   {
+    "name": "Bush 18.1",
+    "skin": "bush",
+    "anim": "bush_sway",
+    "x": 1292,
+    "y": 241,
+    "scale": 1.263,
+    "rotation": 269
+   },
+   {
+    "name": "Bush 18.2",
+    "skin": "bush",
+    "anim": "bush_sway",
+    "x": 1292,
+    "y": 277,
+    "scale": 1.263,
+    "rotation": 322
+   },
+   {
+    "name": "Bush 19.1",
+    "skin": "bush",
+    "anim": "bush_sway",
+    "x": 1771,
+    "y": 261,
+    "scale": 1.263,
+    "rotation": 306
+   },
+   {
+    "name": "Bush 19.2",
+    "skin": "bush",
+    "anim": "bush_sway",
+    "x": 1813,
+    "y": 261,
+    "scale": 1.263,
+    "rotation": 359
+   },
+   {
+    "name": "Flowers 20.1",
+    "skin": "flowers",
+    "anim": "bush_sway",
+    "x": 694,
+    "y": 290,
+    "scale": 1.033,
+    "rotation": 343
+   },
+   {
+    "name": "Flowers 21.1",
+    "skin": "flowers",
+    "anim": "bush_sway",
+    "x": 1229,
+    "y": 307,
+    "scale": 1.263,
+    "rotation": 20
+   },
+   {
+    "name": "Bush 22.1",
+    "skin": "bush",
+    "anim": "bush_sway",
+    "x": 74,
+    "y": 303,
+    "scale": 1.263,
+    "rotation": 57
+   },
+   {
+    "name": "Bush 23.1",
+    "skin": "bush",
+    "anim": "bush_sway",
+    "x": 1860,
+    "y": 310,
+    "scale": 1.114,
+    "rotation": 94
+   },
+   {
+    "name": "Bush 24.1",
+    "skin": "bush",
+    "anim": "bush_sway",
+    "x": 1389,
+    "y": 319,
+    "scale": 1.263,
+    "rotation": 131
+   },
+   {
+    "name": "Flowers 25.1",
+    "skin": "flowers",
+    "anim": "bush_sway",
+    "x": 1699,
+    "y": 319,
+    "scale": 1.228,
+    "rotation": 168
+   },
+   {
+    "name": "Flowers 26.1",
+    "skin": "flowers",
+    "anim": "bush_sway",
+    "x": 132,
+    "y": 326,
+    "scale": 1.033,
+    "rotation": 205
+   },
+   {
+    "name": "Bush 27.1",
+    "skin": "bush",
+    "anim": "bush_sway",
+    "x": 589,
+    "y": 326,
+    "scale": 0.918,
+    "rotation": 242
+   },
+   {
+    "name": "Bush 28.1",
+    "skin": "bush",
+    "anim": "bush_sway",
+    "x": 477,
+    "y": 334,
+    "scale": 0.918,
+    "rotation": 279
+   },
+   {
+    "name": "Bush 28.2",
+    "skin": "bush",
+    "anim": "bush_sway",
+    "x": 515,
+    "y": 334,
+    "scale": 0.918,
+    "rotation": 332
+   },
+   {
+    "name": "Bush 29.1",
+    "skin": "bush",
+    "anim": "bush_sway",
+    "x": 264,
+    "y": 335,
+    "scale": 0.896,
+    "rotation": 316
+   },
+   {
+    "name": "Flowers 30.1",
+    "skin": "flowers",
+    "anim": "bush_sway",
+    "x": 302,
+    "y": 674,
+    "scale": 1.01,
+    "rotation": 353
+   },
+   {
+    "name": "Flowers 31.1",
+    "skin": "flowers",
+    "anim": "bush_sway",
+    "x": 529,
+    "y": 680,
+    "scale": 0.976,
+    "rotation": 30
+   },
+   {
+    "name": "Flowers 31.2",
+    "skin": "flowers",
+    "anim": "bush_sway",
+    "x": 567,
+    "y": 680,
+    "scale": 0.976,
+    "rotation": 83
+   },
+   {
+    "name": "Bush 32.1",
+    "skin": "bush",
+    "anim": "bush_sway",
+    "x": 141,
+    "y": 686,
+    "scale": 1.033,
+    "rotation": 67
+   },
+   {
+    "name": "Flowers 32.2",
+    "skin": "flowers",
+    "anim": "bush_sway",
+    "x": 183,
+    "y": 686,
+    "scale": 1.033,
+    "rotation": 120
+   },
+   {
+    "name": "Bush 33.1",
+    "skin": "bush",
+    "anim": "bush_sway",
+    "x": 1354,
+    "y": 686,
+    "scale": 1.01,
+    "rotation": 104
+   },
+   {
+    "name": "Bush 33.2",
+    "skin": "bush",
+    "anim": "bush_sway",
+    "x": 1390,
+    "y": 686,
+    "scale": 1.01,
+    "rotation": 157
+   },
+   {
+    "name": "Bush 34.1",
+    "skin": "bush",
+    "anim": "bush_sway",
+    "x": 1498,
+    "y": 686,
+    "scale": 1.01,
+    "rotation": 141
+   },
+   {
+    "name": "Bush 34.2",
+    "skin": "bush",
+    "anim": "bush_sway",
+    "x": 1541,
+    "y": 686,
+    "scale": 1.01,
+    "rotation": 194
+   },
+   {
+    "name": "Flowers 35.1",
+    "skin": "flowers",
+    "anim": "bush_sway",
+    "x": 1623,
+    "y": 686,
+    "scale": 1.01,
+    "rotation": 178
+   },
+   {
+    "name": "Flowers 36.1",
+    "skin": "flowers",
+    "anim": "bush_sway",
+    "x": 424,
+    "y": 687,
+    "scale": 0.804,
+    "rotation": 215
+   },
+   {
+    "name": "Bush 37.1",
+    "skin": "bush",
+    "anim": "bush_sway",
+    "x": 1250,
+    "y": 718,
+    "scale": 1.068,
+    "rotation": 252
+   },
+   {
+    "name": "Flowers 37.2",
+    "skin": "flowers",
+    "anim": "bush_sway",
+    "x": 1285,
+    "y": 718,
+    "scale": 1.068,
+    "rotation": 305
+   },
+   {
+    "name": "Bush 38.1",
+    "skin": "bush",
+    "anim": "bush_sway",
+    "x": 633,
+    "y": 718,
+    "scale": 1.01,
+    "rotation": 289
+   },
+   {
+    "name": "Bush 38.2",
+    "skin": "bush",
+    "anim": "bush_sway",
+    "x": 669,
+    "y": 718,
+    "scale": 1.01,
+    "rotation": 342
+   },
+   {
+    "name": "Bush 39.1",
+    "skin": "bush",
+    "anim": "bush_sway",
+    "x": 84,
+    "y": 750,
+    "scale": 1.033,
+    "rotation": 326
+   },
+   {
+    "name": "Flowers 40.1",
+    "skin": "flowers",
+    "anim": "bush_sway",
+    "x": 1205,
+    "y": 770,
+    "scale": 1.263,
+    "rotation": 3
+   },
+   {
+    "name": "Flowers 41.1",
+    "skin": "flowers",
+    "anim": "bush_sway",
+    "x": 14,
+    "y": 831,
+    "scale": 0.804,
+    "rotation": 40
+   },
+   {
+    "name": "Bush 42.1",
+    "skin": "bush",
+    "anim": "bush_sway",
+    "x": 1904,
+    "y": 836,
+    "scale": 1.033,
+    "rotation": 77
+   },
+   {
+    "name": "Bush 43.1",
+    "skin": "bush",
+    "anim": "bush_sway",
+    "x": 731,
+    "y": 851,
+    "scale": 0.896,
+    "rotation": 114
+   },
+   {
+    "name": "Bush 44.1",
+    "skin": "bush",
+    "anim": "bush_sway",
+    "x": 1190,
+    "y": 853,
+    "scale": 0.918,
+    "rotation": 151
+   },
+   {
+    "name": "Flowers 45.1",
+    "skin": "flowers",
+    "anim": "bush_sway",
+    "x": 1846,
+    "y": 892,
+    "scale": 0.941,
+    "rotation": 188
+   },
+   {
+    "name": "Flowers 46.1",
+    "skin": "flowers",
+    "anim": "bush_sway",
+    "x": 701,
+    "y": 913,
+    "scale": 0.861,
+    "rotation": 225
+   },
+   {
+    "name": "Flowers 46.2",
+    "skin": "flowers",
+    "anim": "bush_sway",
+    "x": 701,
+    "y": 949,
+    "scale": 0.861,
+    "rotation": 278
+   },
+   {
+    "name": "Bush 47.1",
+    "skin": "bush",
+    "anim": "bush_sway",
+    "x": 1223,
+    "y": 949,
+    "scale": 0.896,
+    "rotation": 262
+   },
+   {
+    "name": "Bush 48.1",
+    "skin": "bush",
+    "anim": "bush_sway",
+    "x": 197,
+    "y": 952,
+    "scale": 1.206,
+    "rotation": 299
+   },
+   {
+    "name": "Bush 49.1",
+    "skin": "bush",
+    "anim": "bush_sway",
+    "x": 1272,
+    "y": 957,
+    "scale": 1.263,
+    "rotation": 336
+   },
+   {
+    "name": "Flowers 50.1",
+    "skin": "flowers",
+    "anim": "bush_sway",
+    "x": 638,
+    "y": 954,
+    "scale": 1.148,
+    "rotation": 13
+   },
+   {
+    "name": "Flowers 51.1",
+    "skin": "flowers",
+    "anim": "bush_sway",
+    "x": 1867,
+    "y": 981,
+    "scale": 1.148,
+    "rotation": 50
+   },
+   {
+    "name": "Bush 52.1",
+    "skin": "bush",
+    "anim": "bush_sway",
+    "x": 697,
+    "y": 1014,
+    "scale": 1.206,
+    "rotation": 87
+   },
+   {
+    "name": "Bush 53.1",
+    "skin": "bush",
+    "anim": "bush_sway",
+    "x": 1223,
+    "y": 1014,
+    "scale": 1.171,
+    "rotation": 124
+   },
+   {
+    "name": "Bush 54.1",
+    "skin": "bush",
+    "anim": "bush_sway",
+    "x": 105,
+    "y": 1025,
+    "scale": 1.263,
+    "rotation": 161
+   },
+   {
+    "name": "Bush 54.2",
+    "skin": "bush",
+    "anim": "bush_sway",
+    "x": 147,
+    "y": 1025,
+    "scale": 1.263,
+    "rotation": 214
+   },
+   {
+    "name": "Flowers 55.1",
+    "skin": "flowers",
+    "anim": "bush_sway",
+    "x": 215,
+    "y": 1018,
+    "scale": 1.228,
+    "rotation": 198
+   },
+   {
+    "name": "Flowers 56.1",
+    "skin": "flowers",
+    "anim": "bush_sway",
+    "x": 1283,
+    "y": 1018,
+    "scale": 1.148,
+    "rotation": 235
+   },
+   {
+    "name": "Bush 57.1",
+    "skin": "bush",
+    "anim": "bush_sway",
+    "x": 1779,
+    "y": 1023,
+    "scale": 1.206,
+    "rotation": 272
+   },
+   {
+    "name": "Flowers 57.2",
+    "skin": "flowers",
+    "anim": "bush_sway",
+    "x": 1823,
+    "y": 1023,
+    "scale": 1.206,
+    "rotation": 325
+   },
+   {
+    "name": "Bush 58.1",
+    "skin": "bush",
+    "anim": "bush_sway",
+    "x": 1368,
+    "y": 1027,
+    "scale": 1.091,
+    "rotation": 309
+   },
+   {
+    "name": "Bush 58.2",
+    "skin": "bush",
+    "anim": "bush_sway",
+    "x": 1421,
+    "y": 1027,
+    "scale": 1.091,
+    "rotation": 2
+   },
+   {
+    "name": "Bush 59.1",
+    "skin": "bush",
+    "anim": "bush_sway",
+    "x": 1662,
+    "y": 1027,
+    "scale": 1.091,
+    "rotation": 346
+   },
+   {
+    "name": "Bush 59.2",
+    "skin": "bush",
+    "anim": "bush_sway",
+    "x": 1697,
+    "y": 1027,
+    "scale": 1.091,
+    "rotation": 39
+   },
+   {
+    "name": "Flowers 60.1",
+    "skin": "flowers",
+    "anim": "bush_sway",
+    "x": 310,
+    "y": 1032,
+    "scale": 0.918,
+    "rotation": 23
+   },
+   {
+    "name": "Flowers 61.1",
+    "skin": "flowers",
+    "anim": "bush_sway",
+    "x": 559,
+    "y": 1036,
+    "scale": 1.068,
+    "rotation": 60
+   },
+   {
+    "name": "Bush 62.1",
+    "skin": "bush",
+    "anim": "bush_sway",
+    "x": 1587,
+    "y": 1034,
+    "scale": 0.918,
+    "rotation": 97
+   },
+   {
+    "name": "Tree TL big",
+    "skin": "tree",
+    "anim": "tree_sway",
+    "x": 106,
+    "y": 172,
+    "scale": 1.148
+   },
+   {
+    "name": "Tree TL top",
+    "skin": "tree",
+    "anim": "tree_sway",
+    "x": 575,
+    "y": 66,
+    "scale": 0.918
+   },
+   {
+    "name": "Tree TR left",
+    "skin": "tree",
+    "anim": "tree_sway",
+    "x": 1334,
+    "y": 105,
+    "scale": 1.148
+   },
+   {
+    "name": "Tree TR right",
+    "skin": "tree",
+    "anim": "tree_sway",
+    "x": 1761,
+    "y": 94,
+    "scale": 1.148
+   },
+   {
+    "name": "Tree BL",
+    "skin": "tree",
+    "anim": "tree_sway",
+    "x": 106,
+    "y": 931,
+    "scale": 1.148
+   },
+   {
+    "name": "Tree BR",
+    "skin": "tree",
+    "anim": "tree_sway",
+    "x": 1761,
+    "y": 734,
+    "scale": 1.148
+   },
+   {
+    "name": "Fountain",
+    "skin": "fountain",
+    "anim": "fountain_flow",
+    "x": 1546,
+    "y": 195,
+    "scale": 1.148
+   },
+   {
+    "name": "Pigeon 1",
+    "skin": "pigeon",
+    "anim": "pigeon_peck",
+    "x": 1423,
+    "y": 150,
+    "scale": 1.148,
+    "rotation": 290
+   },
+   {
+    "name": "Pigeon 2",
+    "skin": "pigeon",
+    "anim": "pigeon_peck",
+    "x": 1502,
+    "y": 72,
+    "scale": 1.148,
+    "rotation": 160
+   },
+   {
+    "name": "Pigeon 3",
+    "skin": "pigeon",
+    "anim": "pigeon_peck",
+    "x": 1660,
+    "y": 130,
+    "scale": 1.148,
+    "rotation": 60
+   },
+   {
+    "name": "Pigeon 4",
+    "skin": "pigeon",
+    "anim": "pigeon_peck",
+    "x": 1669,
+    "y": 240,
+    "scale": 1.148,
+    "rotation": 290
+   },
+   {
+    "name": "Awning red TL",
+    "skin": "awning_red",
+    "anim": "awning_flutter",
+    "x": 394,
+    "y": 252,
+    "scale": 1.148
+   },
+   {
+    "name": "Awning blue BL",
+    "skin": "awning_blue",
+    "anim": "awning_flutter",
+    "x": 421,
+    "y": 892,
+    "scale": 1.148
+   },
+   {
+    "name": "Umbrella L",
+    "skin": "umbrella",
+    "anim": "umbrella_sway",
+    "x": 168,
+    "y": 295,
+    "scale": 1.148
+   },
+   {
+    "name": "Umbrella R",
+    "skin": "umbrella",
+    "anim": "umbrella_sway",
+    "x": 630,
+    "y": 290,
+    "scale": 1.148
+   },
+   {
+    "name": "Flag BL",
+    "skin": "flag",
+    "anim": "flag_wave",
+    "x": 133,
+    "y": 766,
+    "scale": 1.148
+   },
+   {
+    "name": "Laundry BR",
+    "skin": "laundry",
+    "anim": "laundry_swing",
+    "x": 1552,
+    "y": 871,
+    "scale": 1.148
+   },
+   {
+    "name": "AC fan TL",
+    "skin": "fan_housing",
+    "anim": "fan_spin",
+    "x": 633,
+    "y": 167,
+    "scale": 0.574,
+    "timeScale": 1.0
+   },
+   {
+    "name": "AC fan BL",
+    "skin": "fan_housing",
+    "anim": "fan_spin",
+    "x": 208,
+    "y": 853,
+    "scale": 0.505,
+    "timeScale": 1.0
+   },
+   {
+    "name": "Big exhaust BR",
+    "skin": "fan",
+    "anim": "fan_spin",
+    "x": 1405,
+    "y": 799,
+    "scale": 1.217,
+    "timeScale": 0.5
+   }
+  ]
+ },
+ "portrait": {
+  "background": "bg_portrait.png",
+  "width": 1080,
+  "height": 1920,
+  "items": [
+   {
+    "name": "Flowers 1.1",
+    "skin": "flowers",
+    "anim": "bush_sway",
+    "x": 12,
+    "y": 258,
+    "scale": 0.776,
+    "rotation": 0
+   },
+   {
+    "name": "Flowers 1.2",
+    "skin": "flowers",
+    "anim": "bush_sway",
+    "x": 12,
+    "y": 288,
+    "scale": 0.776,
+    "rotation": 53
+   },
+   {
+    "name": "Bush 2.1",
+    "skin": "bush",
+    "anim": "bush_sway",
+    "x": 961,
+    "y": 264,
+    "scale": 1.094,
+    "rotation": 37
+   },
+   {
+    "name": "Flowers 2.2",
+    "skin": "flowers",
+    "anim": "bush_sway",
+    "x": 992,
+    "y": 264,
+    "scale": 1.094,
+    "rotation": 90
+   },
+   {
+    "name": "Bush 3.1",
+    "skin": "bush",
+    "anim": "bush_sway",
+    "x": 1068,
+    "y": 272,
+    "scale": 0.796,
+    "rotation": 74
+   },
+   {
+    "name": "Bush 4.1",
+    "skin": "bush",
+    "anim": "bush_sway",
+    "x": 88,
+    "y": 264,
+    "scale": 1.094,
+    "rotation": 111
+   },
+   {
+    "name": "Bush 4.2",
+    "skin": "bush",
+    "anim": "bush_sway",
+    "x": 119,
+    "y": 264,
+    "scale": 1.094,
+    "rotation": 164
+   },
+   {
+    "name": "Flowers 5.1",
+    "skin": "flowers",
+    "anim": "bush_sway",
+    "x": 351,
+    "y": 264,
+    "scale": 1.094,
+    "rotation": 148
+   },
+   {
+    "name": "Bush 5.2",
+    "skin": "bush",
+    "anim": "bush_sway",
+    "x": 351,
+    "y": 295,
+    "scale": 1.094,
+    "rotation": 201
+   },
+   {
+    "name": "Flowers 6.1",
+    "skin": "flowers",
+    "anim": "bush_sway",
+    "x": 911,
+    "y": 326,
+    "scale": 0.815,
+    "rotation": 185
+   },
+   {
+    "name": "Bush 7.1",
+    "skin": "bush",
+    "anim": "bush_sway",
+    "x": 165,
+    "y": 330,
+    "scale": 0.845,
+    "rotation": 222
+   },
+   {
+    "name": "Bush 8.1",
+    "skin": "bush",
+    "anim": "bush_sway",
+    "x": 341,
+    "y": 374,
+    "scale": 1.044,
+    "rotation": 259
+   },
+   {
+    "name": "Bush 9.1",
+    "skin": "bush",
+    "anim": "bush_sway",
+    "x": 737,
+    "y": 375,
+    "scale": 1.064,
+    "rotation": 296
+   },
+   {
+    "name": "Flowers 10.1",
+    "skin": "flowers",
+    "anim": "bush_sway",
+    "x": 76,
+    "y": 391,
+    "scale": 1.094,
+    "rotation": 333
+   },
+   {
+    "name": "Bush 10.2",
+    "skin": "bush",
+    "anim": "bush_sway",
+    "x": 119,
+    "y": 391,
+    "scale": 1.094,
+    "rotation": 26
+   },
+   {
+    "name": "Flowers 11.1",
+    "skin": "flowers",
+    "anim": "bush_sway",
+    "x": 176,
+    "y": 419,
+    "scale": 1.044,
+    "rotation": 10
+   },
+   {
+    "name": "Bush 12.1",
+    "skin": "bush",
+    "anim": "bush_sway",
+    "x": 257,
+    "y": 419,
+    "scale": 1.094,
+    "rotation": 47
+   },
+   {
+    "name": "Flowers 12.2",
+    "skin": "flowers",
+    "anim": "bush_sway",
+    "x": 288,
+    "y": 419,
+    "scale": 1.094,
+    "rotation": 100
+   },
+   {
+    "name": "Bush 13.1",
+    "skin": "bush",
+    "anim": "bush_sway",
+    "x": 10,
+    "y": 433,
+    "scale": 0.696,
+    "rotation": 84
+   },
+   {
+    "name": "Bush 14.1",
+    "skin": "bush",
+    "anim": "bush_sway",
+    "x": 1070,
+    "y": 433,
+    "scale": 0.696,
+    "rotation": 121
+   },
+   {
+    "name": "Flowers 15.1",
+    "skin": "flowers",
+    "anim": "bush_sway",
+    "x": 756,
+    "y": 435,
+    "scale": 1.094,
+    "rotation": 158
+   },
+   {
+    "name": "Bush 15.2",
+    "skin": "bush",
+    "anim": "bush_sway",
+    "x": 787,
+    "y": 435,
+    "scale": 1.094,
+    "rotation": 211
+   },
+   {
+    "name": "Flowers 16.1",
+    "skin": "flowers",
+    "anim": "bush_sway",
+    "x": 980,
+    "y": 431,
+    "scale": 0.895,
+    "rotation": 195
+   },
+   {
+    "name": "Bush 17.1",
+    "skin": "bush",
+    "anim": "bush_sway",
+    "x": 84,
+    "y": 441,
+    "scale": 1.094,
+    "rotation": 232
+   },
+   {
+    "name": "Bush 18.1",
+    "skin": "bush",
+    "anim": "bush_sway",
+    "x": 714,
+    "y": 477,
+    "scale": 0.994,
+    "rotation": 269
+   },
+   {
+    "name": "Bush 19.1",
+    "skin": "bush",
+    "anim": "bush_sway",
+    "x": 372,
+    "y": 474,
+    "scale": 0.696,
+    "rotation": 306
+   },
+   {
+    "name": "Flowers 20.1",
+    "skin": "flowers",
+    "anim": "bush_sway",
+    "x": 1022,
+    "y": 482,
+    "scale": 0.895,
+    "rotation": 343
+   },
+   {
+    "name": "Bush 20.2",
+    "skin": "bush",
+    "anim": "bush_sway",
+    "x": 1022,
+    "y": 512,
+    "scale": 0.895,
+    "rotation": 36
+   },
+   {
+    "name": "Flowers 21.1",
+    "skin": "flowers",
+    "anim": "bush_sway",
+    "x": 734,
+    "y": 520,
+    "scale": 0.945,
+    "rotation": 20
+   },
+   {
+    "name": "Bush 22.1",
+    "skin": "bush",
+    "anim": "bush_sway",
+    "x": 699,
+    "y": 538,
+    "scale": 1.094,
+    "rotation": 57
+   },
+   {
+    "name": "Flowers 22.2",
+    "skin": "flowers",
+    "anim": "bush_sway",
+    "x": 699,
+    "y": 582,
+    "scale": 1.094,
+    "rotation": 110
+   },
+   {
+    "name": "Bush 23.1",
+    "skin": "bush",
+    "anim": "bush_sway",
+    "x": 385,
+    "y": 536,
+    "scale": 0.796,
+    "rotation": 94
+   },
+   {
+    "name": "Bush 23.2",
+    "skin": "bush",
+    "anim": "bush_sway",
+    "x": 385,
+    "y": 569,
+    "scale": 0.796,
+    "rotation": 147
+   },
+   {
+    "name": "Bush 24.1",
+    "skin": "bush",
+    "anim": "bush_sway",
+    "x": 1060,
+    "y": 560,
+    "scale": 0.965,
+    "rotation": 131
+   },
+   {
+    "name": "Flowers 25.1",
+    "skin": "flowers",
+    "anim": "bush_sway",
+    "x": 1036,
+    "y": 573,
+    "scale": 0.696,
+    "rotation": 168
+   },
+   {
+    "name": "Flowers 26.1",
+    "skin": "flowers",
+    "anim": "bush_sway",
+    "x": 328,
+    "y": 604,
+    "scale": 0.696,
+    "rotation": 205
+   },
+   {
+    "name": "Bush 27.1",
+    "skin": "bush",
+    "anim": "bush_sway",
+    "x": 358,
+    "y": 648,
+    "scale": 0.796,
+    "rotation": 242
+   },
+   {
+    "name": "Flowers 27.2",
+    "skin": "flowers",
+    "anim": "bush_sway",
+    "x": 358,
+    "y": 681,
+    "scale": 0.796,
+    "rotation": 295
+   },
+   {
+    "name": "Bush 28.1",
+    "skin": "bush",
+    "anim": "bush_sway",
+    "x": 34,
+    "y": 651,
+    "scale": 0.994,
+    "rotation": 279
+   },
+   {
+    "name": "Bush 28.2",
+    "skin": "bush",
+    "anim": "bush_sway",
+    "x": 34,
+    "y": 682,
+    "scale": 0.994,
+    "rotation": 332
+   },
+   {
+    "name": "Bush 29.1",
+    "skin": "bush",
+    "anim": "bush_sway",
+    "x": 72,
+    "y": 729,
+    "scale": 1.094,
+    "rotation": 316
+   },
+   {
+    "name": "Flowers 30.1",
+    "skin": "flowers",
+    "anim": "bush_sway",
+    "x": 1016,
+    "y": 735,
+    "scale": 1.094,
+    "rotation": 353
+   },
+   {
+    "name": "Flowers 31.1",
+    "skin": "flowers",
+    "anim": "bush_sway",
+    "x": 740,
+    "y": 736,
+    "scale": 1.094,
+    "rotation": 30
+   },
+   {
+    "name": "Bush 32.1",
+    "skin": "bush",
+    "anim": "bush_sway",
+    "x": 326,
+    "y": 731,
+    "scale": 0.965,
+    "rotation": 67
+   },
+   {
+    "name": "Bush 33.1",
+    "skin": "bush",
+    "anim": "bush_sway",
+    "x": 805,
+    "y": 741,
+    "scale": 1.094,
+    "rotation": 104
+   },
+   {
+    "name": "Bush 34.1",
+    "skin": "bush",
+    "anim": "bush_sway",
+    "x": 953,
+    "y": 741,
+    "scale": 1.094,
+    "rotation": 141
+   },
+   {
+    "name": "Flowers 35.1",
+    "skin": "flowers",
+    "anim": "bush_sway",
+    "x": 189,
+    "y": 767,
+    "scale": 1.094,
+    "rotation": 178
+   },
+   {
+    "name": "Bush 35.2",
+    "skin": "bush",
+    "anim": "bush_sway",
+    "x": 230,
+    "y": 767,
+    "scale": 1.094,
+    "rotation": 231
+   },
+   {
+    "name": "Flowers 36.1",
+    "skin": "flowers",
+    "anim": "bush_sway",
+    "x": 192,
+    "y": 1121,
+    "scale": 1.094,
+    "rotation": 215
+   },
+   {
+    "name": "Bush 37.1",
+    "skin": "bush",
+    "anim": "bush_sway",
+    "x": 809,
+    "y": 1131,
+    "scale": 1.094,
+    "rotation": 252
+   },
+   {
+    "name": "Flowers 37.2",
+    "skin": "flowers",
+    "anim": "bush_sway",
+    "x": 839,
+    "y": 1131,
+    "scale": 1.094,
+    "rotation": 305
+   },
+   {
+    "name": "Bush 38.1",
+    "skin": "bush",
+    "anim": "bush_sway",
+    "x": 107,
+    "y": 1131,
+    "scale": 1.094,
+    "rotation": 289
+   },
+   {
+    "name": "Bush 39.1",
+    "skin": "bush",
+    "anim": "bush_sway",
+    "x": 900,
+    "y": 1137,
+    "scale": 1.094,
+    "rotation": 326
+   },
+   {
+    "name": "Flowers 40.1",
+    "skin": "flowers",
+    "anim": "bush_sway",
+    "x": 978,
+    "y": 1137,
+    "scale": 1.094,
+    "rotation": 3
+   },
+   {
+    "name": "Flowers 41.1",
+    "skin": "flowers",
+    "anim": "bush_sway",
+    "x": 278,
+    "y": 1131,
+    "scale": 0.845,
+    "rotation": 40
+   },
+   {
+    "name": "Bush 42.1",
+    "skin": "bush",
+    "anim": "bush_sway",
+    "x": 731,
+    "y": 1177,
+    "scale": 1.094,
+    "rotation": 77
+   },
+   {
+    "name": "Bush 43.1",
+    "skin": "bush",
+    "anim": "bush_sway",
+    "x": 1030,
+    "y": 1187,
+    "scale": 1.044,
+    "rotation": 114
+   },
+   {
+    "name": "Bush 44.1",
+    "skin": "bush",
+    "anim": "bush_sway",
+    "x": 362,
+    "y": 1183,
+    "scale": 1.094,
+    "rotation": 151
+   },
+   {
+    "name": "Flowers 45.1",
+    "skin": "flowers",
+    "anim": "bush_sway",
+    "x": 43,
+    "y": 1199,
+    "scale": 0.696,
+    "rotation": 188
+   },
+   {
+    "name": "Flowers 46.1",
+    "skin": "flowers",
+    "anim": "bush_sway",
+    "x": 695,
+    "y": 1232,
+    "scale": 0.994,
+    "rotation": 225
+   },
+   {
+    "name": "Bush 47.1",
+    "skin": "bush",
+    "anim": "bush_sway",
+    "x": 1070,
+    "y": 1290,
+    "scale": 0.716,
+    "rotation": 262
+   },
+   {
+    "name": "Bush 48.1",
+    "skin": "bush",
+    "anim": "bush_sway",
+    "x": 12,
+    "y": 1297,
+    "scale": 0.815,
+    "rotation": 299
+   },
+   {
+    "name": "Bush 49.1",
+    "skin": "bush",
+    "anim": "bush_sway",
+    "x": 394,
+    "y": 1307,
+    "scale": 0.716,
+    "rotation": 336
+   },
+   {
+    "name": "Bush 49.2",
+    "skin": "bush",
+    "anim": "bush_sway",
+    "x": 394,
+    "y": 1338,
+    "scale": 0.716,
+    "rotation": 29
+   },
+   {
+    "name": "Flowers 50.1",
+    "skin": "flowers",
+    "anim": "bush_sway",
+    "x": 690,
+    "y": 1316,
+    "scale": 0.925,
+    "rotation": 13
+   },
+   {
+    "name": "Bush 50.2",
+    "skin": "bush",
+    "anim": "bush_sway",
+    "x": 690,
+    "y": 1353,
+    "scale": 0.925,
+    "rotation": 66
+   },
+   {
+    "name": "Flowers 51.1",
+    "skin": "flowers",
+    "anim": "bush_sway",
+    "x": 378,
+    "y": 1392,
+    "scale": 0.696,
+    "rotation": 50
+   },
+   {
+    "name": "Bush 52.1",
+    "skin": "bush",
+    "anim": "bush_sway",
+    "x": 52,
+    "y": 1392,
+    "scale": 0.994,
+    "rotation": 87
+   },
+   {
+    "name": "Flowers 52.2",
+    "skin": "flowers",
+    "anim": "bush_sway",
+    "x": 52,
+    "y": 1426,
+    "scale": 0.994,
+    "rotation": 140
+   },
+   {
+    "name": "Bush 53.1",
+    "skin": "bush",
+    "anim": "bush_sway",
+    "x": 342,
+    "y": 1414,
+    "scale": 0.994,
+    "rotation": 124
+   },
+   {
+    "name": "Bush 54.1",
+    "skin": "bush",
+    "anim": "bush_sway",
+    "x": 737,
+    "y": 1419,
+    "scale": 1.094,
+    "rotation": 161
+   },
+   {
+    "name": "Flowers 55.1",
+    "skin": "flowers",
+    "anim": "bush_sway",
+    "x": 119,
+    "y": 1420,
+    "scale": 0.815,
+    "rotation": 198
+   },
+   {
+    "name": "Flowers 56.1",
+    "skin": "flowers",
+    "anim": "bush_sway",
+    "x": 340,
+    "y": 1469,
+    "scale": 1.094,
+    "rotation": 235
+   },
+   {
+    "name": "Bush 57.1",
+    "skin": "bush",
+    "anim": "bush_sway",
+    "x": 999,
+    "y": 1469,
+    "scale": 1.094,
+    "rotation": 272
+   },
+   {
+    "name": "Bush 58.1",
+    "skin": "bush",
+    "anim": "bush_sway",
+    "x": 747,
+    "y": 1477,
+    "scale": 1.094,
+    "rotation": 309
+   },
+   {
+    "name": "Bush 59.1",
+    "skin": "bush",
+    "anim": "bush_sway",
+    "x": 76,
+    "y": 1481,
+    "scale": 1.094,
+    "rotation": 346
+   },
+   {
+    "name": "Bush 59.2",
+    "skin": "bush",
+    "anim": "bush_sway",
+    "x": 115,
+    "y": 1481,
+    "scale": 1.094,
+    "rotation": 39
+   },
+   {
+    "name": "Flowers 60.1",
+    "skin": "flowers",
+    "anim": "bush_sway",
+    "x": 909,
+    "y": 1477,
+    "scale": 1.094,
+    "rotation": 23
+   },
+   {
+    "name": "Flowers 61.1",
+    "skin": "flowers",
+    "anim": "bush_sway",
+    "x": 181,
+    "y": 1492,
+    "scale": 1.014,
+    "rotation": 60
+   },
+   {
+    "name": "Bush 62.1",
+    "skin": "bush",
+    "anim": "bush_sway",
+    "x": 810,
+    "y": 1501,
+    "scale": 1.094,
+    "rotation": 97
+   },
+   {
+    "name": "Bush 63.1",
+    "skin": "bush",
+    "anim": "bush_sway",
+    "x": 276,
+    "y": 1515,
+    "scale": 1.094,
+    "rotation": 134
+   },
+   {
+    "name": "Bush 64.1",
+    "skin": "bush",
+    "anim": "bush_sway",
+    "x": 349,
+    "y": 1599,
+    "scale": 1.094,
+    "rotation": 171
+   },
+   {
+    "name": "Bush 64.2",
+    "skin": "bush",
+    "anim": "bush_sway",
+    "x": 349,
+    "y": 1644,
+    "scale": 1.094,
+    "rotation": 224
+   },
+   {
+    "name": "Flowers 65.1",
+    "skin": "flowers",
+    "anim": "bush_sway",
+    "x": 10,
+    "y": 1606,
+    "scale": 0.696,
+    "rotation": 208
+   },
+   {
+    "name": "Bush 65.2",
+    "skin": "bush",
+    "anim": "bush_sway",
+    "x": 10,
+    "y": 1649,
+    "scale": 0.696,
+    "rotation": 261
+   },
+   {
+    "name": "Flowers 66.1",
+    "skin": "flowers",
+    "anim": "bush_sway",
+    "x": 728,
+    "y": 1611,
+    "scale": 1.094,
+    "rotation": 245
+   },
+   {
+    "name": "Flowers 66.2",
+    "skin": "flowers",
+    "anim": "bush_sway",
+    "x": 728,
+    "y": 1642,
+    "scale": 1.094,
+    "rotation": 298
+   },
+   {
+    "name": "Bush 67.1",
+    "skin": "bush",
+    "anim": "bush_sway",
+    "x": 88,
+    "y": 1634,
+    "scale": 1.094,
+    "rotation": 282
+   },
+   {
+    "name": "Flowers 67.2",
+    "skin": "flowers",
+    "anim": "bush_sway",
+    "x": 123,
+    "y": 1634,
+    "scale": 1.094,
+    "rotation": 335
+   },
+   {
+    "name": "Flowers 901.1",
+    "skin": "flowers",
+    "anim": "bush_sway",
+    "x": 1028,
+    "y": 64,
+    "scale": 0.8,
+    "rotation": 180
+   },
+   {
+    "name": "Flowers 901.2",
+    "skin": "flowers",
+    "anim": "bush_sway",
+    "x": 1028,
+    "y": 113,
+    "scale": 0.8,
+    "rotation": 233
+   },
+   {
+    "name": "Bush 902.1",
+    "skin": "bush",
+    "anim": "bush_sway",
+    "x": 745,
+    "y": 74,
+    "scale": 1.1,
+    "rotation": 217
+   },
+   {
+    "name": "Flowers 902.2",
+    "skin": "flowers",
+    "anim": "bush_sway",
+    "x": 776,
+    "y": 74,
+    "scale": 1.1,
+    "rotation": 270
+   },
+   {
+    "name": "Bush 903.1",
+    "skin": "bush",
+    "anim": "bush_sway",
+    "x": 72,
+    "y": 84,
+    "scale": 1.1,
+    "rotation": 254
+   },
+   {
+    "name": "Bush 903.2",
+    "skin": "bush",
+    "anim": "bush_sway",
+    "x": 116,
+    "y": 84,
+    "scale": 1.1,
+    "rotation": 307
+   },
+   {
+    "name": "Bush 904.1",
+    "skin": "bush",
+    "anim": "bush_sway",
+    "x": 350,
+    "y": 104,
+    "scale": 0.9,
+    "rotation": 291
+   },
+   {
+    "name": "Bush 904.2",
+    "skin": "bush",
+    "anim": "bush_sway",
+    "x": 350,
+    "y": 135,
+    "scale": 0.9,
+    "rotation": 344
+   },
+   {
+    "name": "Flowers 905.1",
+    "skin": "flowers",
+    "anim": "bush_sway",
+    "x": 219,
+    "y": 172,
+    "scale": 0.85,
+    "rotation": 328
+   },
+   {
+    "name": "Flowers 906.1",
+    "skin": "flowers",
+    "anim": "bush_sway",
+    "x": 973,
+    "y": 174,
+    "scale": 1.05,
+    "rotation": 5
+   },
+   {
+    "name": "Bush 907.1",
+    "skin": "bush",
+    "anim": "bush_sway",
+    "x": 94,
+    "y": 194,
+    "scale": 1.07,
+    "rotation": 42
+   },
+   {
+    "name": "Bush 908.1",
+    "skin": "bush",
+    "anim": "bush_sway",
+    "x": 998,
+    "y": 1715,
+    "scale": 0.8,
+    "rotation": 79
+   },
+   {
+    "name": "Bush 908.2",
+    "skin": "bush",
+    "anim": "bush_sway",
+    "x": 998,
+    "y": 1748,
+    "scale": 0.8,
+    "rotation": 132
+   },
+   {
+    "name": "Bush 909.1",
+    "skin": "bush",
+    "anim": "bush_sway",
+    "x": 65,
+    "y": 1732,
+    "scale": 1.1,
+    "rotation": 116
+   },
+   {
+    "name": "Bush 909.2",
+    "skin": "bush",
+    "anim": "bush_sway",
+    "x": 65,
+    "y": 1776,
+    "scale": 1.1,
+    "rotation": 169
+   },
+   {
+    "name": "Flowers 910.1",
+    "skin": "flowers",
+    "anim": "bush_sway",
+    "x": 344,
+    "y": 1724,
+    "scale": 0.7,
+    "rotation": 153
+   },
+   {
+    "name": "Flowers 911.1",
+    "skin": "flowers",
+    "anim": "bush_sway",
+    "x": 752,
+    "y": 1744,
+    "scale": 1.1,
+    "rotation": 190
+   },
+   {
+    "name": "Flowers 911.2",
+    "skin": "flowers",
+    "anim": "bush_sway",
+    "x": 796,
+    "y": 1744,
+    "scale": 1.1,
+    "rotation": 243
+   },
+   {
+    "name": "Bush 912.1",
+    "skin": "bush",
+    "anim": "bush_sway",
+    "x": 180,
+    "y": 1816,
+    "scale": 1.1,
+    "rotation": 227
+   },
+   {
+    "name": "Flowers 912.2",
+    "skin": "flowers",
+    "anim": "bush_sway",
+    "x": 221,
+    "y": 1816,
+    "scale": 1.1,
+    "rotation": 280
+   },
+   {
+    "name": "Bush 913.1",
+    "skin": "bush",
+    "anim": "bush_sway",
+    "x": 881,
+    "y": 1854,
+    "scale": 0.95,
+    "rotation": 264
+   },
+   {
+    "name": "Tree top L",
+    "skin": "tree",
+    "anim": "tree_sway",
+    "x": 235,
+    "y": 75,
+    "scale": 0.85
+   },
+   {
+    "name": "Tree top R",
+    "skin": "tree",
+    "anim": "tree_sway",
+    "x": 865,
+    "y": 115,
+    "scale": 0.85
+   },
+   {
+    "name": "Tree bottom L",
+    "skin": "tree",
+    "anim": "tree_sway",
+    "x": 300,
+    "y": 1850,
+    "scale": 0.85
+   },
+   {
+    "name": "Tree bottom R",
+    "skin": "tree",
+    "anim": "tree_sway",
+    "x": 880,
+    "y": 1770,
+    "scale": 0.8
+   },
+   {
+    "name": "Tree TL",
+    "skin": "tree",
+    "anim": "tree_sway",
+    "x": 249,
+    "y": 310,
+    "scale": 0.845
+   },
+   {
+    "name": "Tree TL low",
+    "skin": "tree",
+    "anim": "tree_sway",
+    "x": 52,
+    "y": 573,
+    "scale": 0.796
+   },
+   {
+    "name": "Tree TR",
+    "skin": "tree",
+    "anim": "tree_sway",
+    "x": 711,
+    "y": 315,
+    "scale": 0.845
+   },
+   {
+    "name": "Tree TR right",
+    "skin": "tree",
+    "anim": "tree_sway",
+    "x": 1006,
+    "y": 331,
+    "scale": 0.796
+   },
+   {
+    "name": "Tree BL",
+    "skin": "tree",
+    "anim": "tree_sway",
+    "x": 249,
+    "y": 1602,
+    "scale": 0.845
+   },
+   {
+    "name": "Tree BR",
+    "skin": "tree",
+    "anim": "tree_sway",
+    "x": 1024,
+    "y": 1602,
+    "scale": 0.845
+   },
+   {
+    "name": "Fountain",
+    "skin": "fountain",
+    "anim": "fountain_flow",
+    "x": 875,
+    "y": 583,
+    "scale": 0.994
+   },
+   {
+    "name": "Pigeon 1",
+    "skin": "pigeon",
+    "anim": "pigeon_peck",
+    "x": 773,
+    "y": 545,
+    "scale": 0.945,
+    "rotation": 290
+   },
+   {
+    "name": "Pigeon 2",
+    "skin": "pigeon",
+    "anim": "pigeon_peck",
+    "x": 837,
+    "y": 481,
+    "scale": 0.945,
+    "rotation": 160
+   },
+   {
+    "name": "Pigeon 3",
+    "skin": "pigeon",
+    "anim": "pigeon_peck",
+    "x": 970,
+    "y": 528,
+    "scale": 0.945,
+    "rotation": 60
+   },
+   {
+    "name": "Pigeon 4",
+    "skin": "pigeon",
+    "anim": "pigeon_peck",
+    "x": 978,
+    "y": 621,
+    "scale": 0.945,
+    "rotation": 290
+   },
+   {
+    "name": "Awning red TL",
+    "skin": "awning_red",
+    "anim": "awning_flutter",
+    "x": 202,
+    "y": 648,
+    "scale": 0.617
+   },
+   {
+    "name": "Awning blue BL",
+    "skin": "awning_blue",
+    "anim": "awning_flutter",
+    "x": 209,
+    "y": 1376,
+    "scale": 0.656
+   },
+   {
+    "name": "Umbrella L",
+    "skin": "umbrella",
+    "anim": "umbrella_sway",
+    "x": 85,
+    "y": 683,
+    "scale": 0.845
+   },
+   {
+    "name": "Umbrella R",
+    "skin": "umbrella",
+    "anim": "umbrella_sway",
+    "x": 313,
+    "y": 697,
+    "scale": 0.845
+   },
+   {
+    "name": "Flag BL",
+    "skin": "flag",
+    "anim": "flag_wave",
+    "x": 78,
+    "y": 1220,
+    "scale": 0.845
+   },
+   {
+    "name": "Laundry BR",
+    "skin": "laundry",
+    "anim": "laundry_swing",
+    "x": 890,
+    "y": 1329,
+    "scale": 0.617
+   },
+   {
+    "name": "AC fan TL",
+    "skin": "fan_housing",
+    "anim": "fan_spin",
+    "x": 324,
+    "y": 549,
+    "scale": 0.428,
+    "timeScale": 1.0
+   },
+   {
+    "name": "AC fan BL",
+    "skin": "fan_housing",
+    "anim": "fan_spin",
+    "x": 132,
+    "y": 1336,
+    "scale": 0.398,
+    "timeScale": 1.0
+   },
+   {
+    "name": "Big exhaust BR",
+    "skin": "fan",
+    "anim": "fan_spin",
+    "x": 827,
+    "y": 1240,
+    "scale": 0.975,
+    "timeScale": 0.5
+   }
+  ]
+ }
+}

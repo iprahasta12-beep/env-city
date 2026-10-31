@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Env Animation Preview</title>
+<style>
+  :root { --bg:#14161b; --panel:#1b1e25; --line:#2c3039; --fg:#e9eaee; --dim:#8d93a0; --acc:#4ea1ff; --gold:#ffcf4a; }
+  * { box-sizing:border-box; }
+  html, body { margin:0; height:100%; background:var(--bg); color:var(--fg); font:13px/1.4 system-ui, -apple-system, Segoe UI, sans-serif; overflow:hidden; }
+  #app { display:grid; grid-template-columns:232px 1fr 212px; height:100%; }
+  aside { background:var(--panel); border-color:var(--line); border-style:solid; border-width:0; overflow-y:auto; padding:14px 12px; display:flex; flex-direction:column; gap:14px; }
+  #left { border-right-width:1px; }
+  #right { border-left-width:1px; }
+  h1 { margin:0; font-size:14px; letter-spacing:.02em; }
+  h1 small { display:block; color:var(--dim); font-weight:400; font-size:11px; margin-top:2px; }
+  .grp { display:flex; flex-direction:column; gap:6px; }
+  .lbl { color:var(--dim); font-size:11px; text-transform:uppercase; letter-spacing:.08em; font-weight:600; }
+  .seg { display:grid; grid-auto-flow:column; grid-auto-columns:1fr; background:#0004; border-radius:8px; padding:3px; gap:3px; }
+  .seg button { border:0; background:transparent; color:var(--dim); padding:7px 6px; border-radius:6px; cursor:pointer; font:inherit; font-weight:600; }
+  .seg button.on { background:var(--acc); color:#fff; }
+  .seg button small { display:block; font-weight:400; font-size:10px; opacity:.8; }
+  .row2 { display:grid; grid-template-columns:1fr 1fr; gap:6px; }
+  button.b, label.b { border:1px solid var(--line); background:#262a33; color:var(--fg); padding:7px 10px; border-radius:6px; cursor:pointer; font:inherit; text-align:center; white-space:nowrap; }
+  button.b:hover, label.b:hover { border-color:var(--acc); }
+  button.b.on { border-color:var(--acc); color:var(--acc); background:#4ea1ff14; }
+  input[type=file] { display:none; }
+  .speed { display:grid; grid-template-columns:1fr 42px; align-items:center; gap:8px; }
+  .speed input { width:100%; accent-color:var(--acc); }
+  .speed span { text-align:right; font-variant-numeric:tabular-nums; }
+  .chips { display:flex; flex-wrap:wrap; gap:4px; }
+  .chips button { border:1px solid var(--line); background:transparent; color:var(--dim); border-radius:999px; padding:2px 8px; font:inherit; font-size:11px; cursor:pointer; }
+  .chips button:hover { color:var(--fg); border-color:var(--acc); }
+  #info { color:var(--dim); font-size:12px; }
+  .keys { color:var(--dim); font-size:11px; line-height:1.6; }
+  .keys b { color:var(--fg); font-weight:600; background:#0005; border:1px solid var(--line); border-radius:4px; padding:0 4px; }
+  #insp { display:none; border:1px solid var(--line); border-radius:10px; padding:10px; background:#0002; }
+  #insp h3 { margin:0 0 8px; font-size:13px; }
+  #insp .row { display:grid; grid-template-columns:64px 1fr; align-items:center; gap:6px; margin:4px 0; }
+  #insp input, #insp select { width:100%; background:#0004; color:var(--fg); border:1px solid var(--line); border-radius:5px; padding:4px 6px; font:inherit; }
+  #insp .dim { color:var(--dim); font-size:11px; margin-top:8px; }
+  #stage { position:relative; min-width:0; min-height:0; }
+  #toast { position:fixed; left:50%; bottom:18px; transform:translateX(-50%); background:#000c; padding:8px 14px; border-radius:8px; display:none; z-index:6; }
+  .win { display:flex; flex-direction:column; gap:8px; }
+  button.fx { border:1px solid #ffe9a0; border-radius:10px; padding:14px 10px; cursor:pointer; font:inherit; font-weight:900; font-size:15px; letter-spacing:.04em;
+              background:linear-gradient(#ffd85a,#e69a12); color:#4a1800; text-shadow:0 1px 0 #fff6; box-shadow:0 2px 0 #8a4a00; }
+  button.fx { padding:10px 10px; }
+  button.fx.lv1 { background:linear-gradient(#fff3b8,#f0c64a); color:#5a3a00; border-color:#fff6d0; box-shadow:0 2px 0 #9a7000; }
+  button.fx.lv3 { background:linear-gradient(#ffb15a,#e8701a); color:#fff; text-shadow:0 1px 0 #0006; border-color:#ffd0a0; box-shadow:0 2px 0 #8a3a00; }
+  button.fx.lv4 { background:linear-gradient(#ff7a5a,#c8301a); color:#fff; text-shadow:0 1px 0 #0006; border-color:#ffb8a0; box-shadow:0 2px 0 #6a1400; }
+  button.fx.lv5 { background:linear-gradient(#e24a8a,#7a1a8a); color:#fff; text-shadow:0 1px 0 #0006; border-color:#f0a0d0; box-shadow:0 2px 0 #3a0050; }
+  button.fx.on { outline:2px solid #fff; outline-offset:2px; }
+  button.fx small { display:block; font-weight:600; font-size:10px; opacity:.75; letter-spacing:0; }
+  button.fx:disabled { opacity:.4; cursor:default; }
+  #fxState { color:var(--dim); font-size:12px; min-height:18px; font-variant-numeric:tabular-nums; }
+  #fxState b { color:var(--gold); }
+  .opt { display:flex; align-items:center; gap:8px; color:var(--fg); cursor:pointer; }
+  .opt input { accent-color:var(--acc); }
+  .note { color:var(--dim); font-size:11px; line-height:1.5; }
+  @media (max-width: 860px) {
+    html, body { overflow:auto; }
+    #app { grid-template-columns:1fr; grid-template-rows:auto 60vh auto; height:auto; }
+    #left, #right { border-width:0; }
+    #stage { height:60vh; }
+  }
+</style>
+</head>
+<body>
+<div id="app">
+  <aside id="left">
+    <h1>Env Animation <small>Spine 4.2 · Pixi v8 · offline</small></h1>
+
+    <div class="grp">
+      <div class="lbl">Theme</div>
+      <div class="seg" id="themes"></div>
+    </div>
+
+    <div class="grp">
+      <div class="lbl">Orientation</div>
+      <div class="seg" id="layouts">
+        <button data-layout="landscape" class="on">Landscape<small>1920×1080</small></button>
+        <button data-layout="portrait">Portrait<small>1080×1920</small></button>
+      </div>
+    </div>
+
+    <div class="grp">
+      <div class="lbl">Playback</div>
+      <button class="b" id="play" title="Space">❚❚ Pause</button>
+      <div class="speed"><input id="speed" type="range" min="0" max="3" step="0.1" value="1"><span id="speedV">1.0x</span></div>
+      <div class="chips" id="speedChips"><button data-s="0.25">0.25x</button><button data-s="0.5">0.5x</button><button data-s="1">1x</button><button data-s="2">2x</button></div>
+    </div>
+
+    <div class="grp">
+      <div class="lbl">Tools</div>
+      <div class="row2">
+        <button class="b" id="edit" title="E">Edit</button>
+        <button class="b" id="bones" title="D">Debug</button>
+      </div>
+    </div>
+
+    <div id="insp">
+      <h3 id="iName">—</h3>
+      <div class="row"><span>Skin</span><select id="iSkin"></select></div>
+      <div class="row"><span>Anim</span><select id="iAnim"></select></div>
+      <div class="row"><span>X</span><input id="iX" type="number"></div>
+      <div class="row"><span>Y</span><input id="iY" type="number"></div>
+      <div class="row"><span>Scale</span><input id="iScale" type="number" step="0.05"></div>
+      <div class="row"><span>Scale Y</span><input id="iScaleY" type="number" step="0.05" title="Extra Y multiplier (1 = uniform)"></div>
+      <div class="row"><span>Rotation</span><input id="iRot" type="number" step="5"></div>
+      <div class="row"><span>Speed</span><input id="iTS" type="number" step="0.1"></div>
+      <div class="row"><span>Flip X</span><input id="iFlip" type="checkbox" style="width:auto"></div>
+      <div class="row2" style="margin-top:6px"><button class="b" id="iDup">Duplicate</button><button class="b" id="iDel">Delete</button></div>
+      <div class="dim">Drag = move · Wheel = scale · Shift+wheel = rotate · Del = delete</div>
+    </div>
+
+    <div class="grp">
+      <div class="lbl">Files</div>
+      <label class="b" title="Pick the env-animation folder (or one theme folder) to load latest json / atlas / placements">Load folder<input id="dir" type="file" webkitdirectory multiple></label>
+      <button class="b" id="savePl">Save placements.json</button>
+      <button class="b" id="bake" title="Download data.js so double-click opens with current files">Bake data.js</button>
+    </div>
+
+    <div id="info"></div>
+    <div class="keys"><b>T</b> theme · <b>1</b>/<b>2</b> orientation · <b>Space</b> pause · <b>E</b> edit · <b>D</b> debug · <b>W C S R X</b> win levels 1–5</div>
+  </aside>
+
+  <div id="stage"></div>
+
+  <aside id="right">
+    <div class="grp">
+      <div class="lbl">Win control</div>
+      <div class="win">
+        <button class="fx lv1" data-lv="win" title="W">WIN</button>
+        <button class="fx lv2" data-lv="crash_win" title="C">CRASH WIN</button>
+        <button class="fx lv3" data-lv="smash_win" title="S">SMASH WIN</button>
+        <button class="fx lv4" data-lv="wreckage_win" title="R">WRECKAGE WIN</button>
+        <button class="fx lv5" data-lv="total_win" title="X">TOTAL WIN</button>
+        <button class="b" id="fxOut" disabled>Skip → out</button>
+      </div>
+      <div id="fxState">Idle</div>
+    </div>
+    <div class="grp">
+      <div class="lbl">Options</div>
+      <label class="opt"><input type="checkbox" id="fxAuto" checked> Auto out after count</label>
+      <label class="opt"><input type="checkbox" id="fxDim" checked> Dim background</label>
+      <label class="opt"><input type="checkbox" id="fxDebug"> Debug win skeleton</label>
+    </div>
+    <div class="grp">
+      <div class="lbl">Amount</div>
+      <div class="seg" id="fxAmt">
+        <button data-a="random" class="on">Random</button>
+        <button data-a="1250">1,250</button>
+        <button data-a="99999">99,999</button>
+      </div>
+    </div>
+    <div class="note">Win overlay is shared by every theme. It fits the game frame: 1080 design width, root = frame center. Click the stage while it plays to skip to <i>_out</i>. Count-up number is preview code only.</div>
+  </aside>
+</div>
+<div id="toast"></div>
+
+<script src="libs/pixi.min.js"></script>
+<script src="libs/spine-pixi-v8-4.2.min.js"></script>
+<script src="data.js"></script>
+<script src="preview.js"></script>
+</body>
+</html>
